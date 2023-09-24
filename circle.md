@@ -32,25 +32,6 @@ window.addEventListener('click', function (e) {
      box-sizing: border-box;
 }
 
-html, body {
-     margin-top: 20px;
-}
-
-h1 {
-     text-align: center;
-     text-transform: uppercase;
-     text-decoration: underline;
-     text-underline-position: under;
-     /* You can adjust the space using the following property */
-     text-underline-offset: 0.2em; /* Adjust this value as needed */
- }
-
- @media (max-width: 776px) {
-     h1 {
-          font-size: 19px;
-     }
- }
-
  .circle {
      width: 50px;
      height: 50px;
